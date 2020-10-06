@@ -3,7 +3,7 @@ class Game {
         // Clear canvas
         this.drawBackground();
         // Create player instance
-        this.populationSize = 250;
+        this.populationSize = 50;
         this.generationNumber = 0;
         this.population = this.newPopulation(this.populationSize);
         this.best = {
@@ -11,7 +11,7 @@ class Game {
             brain: 0,
         };
         this.currentScore = 0;
-	this.STEPS = 50;
+	this.STEPS = 5;
     }
 
     static fillPopulation(model) {

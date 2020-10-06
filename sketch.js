@@ -5,7 +5,6 @@ let bestScoreDisplay;
 let generationDisplay;
 
 function setup() {
-    tf.setBackend("cpu");
     // Make and style UI
     setUpElements();
 
