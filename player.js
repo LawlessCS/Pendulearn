@@ -9,8 +9,8 @@ class Player {
         this.startY = y;
 
         // Player car width and height
-        this.w = 100;
-        this.h = 30;
+        this.w = 60;
+        this.h = 10;
 
         // Set player speed values
         this.speedMultiplier = 0.2;
@@ -56,12 +56,6 @@ class Player {
         fill(0, 50);
         rectMode(CENTER);
         rect(this.x, this.y, this.w, this.h);
-        fill(255, 255);
-        ellipse(this.x - 10, this.y, 12, 20);
-        ellipse(this.x + 10, this.y, 12, 20);
-        fill("#00b3ef");
-        ellipse(this.x - 8, this.y - 3, 5, 5);
-        ellipse(this.x + 12, this.y - 3, 5, 5);
 
         // Draw pendulum
         this.pendulum.draw(this.x, this.y);

@@ -190,10 +190,10 @@ class Game {
     static newPlayer(brain) {
         // If brain specified, create player based on that
         if (brain) {
-            return new Player(width / 2, height * 0.675, brain);
+            return new Player(width / 2, height * 0.71, brain);
         } else {
             // Create new player specifying x and y pos
-            return new Player(width / 2, height * 0.675);
+            return new Player(width / 2, height * 0.71);
         }
     }
 

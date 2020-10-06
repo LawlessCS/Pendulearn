@@ -5,13 +5,13 @@ class Pendulum {
         this.yOff = yOff;
 
         // Length of "stalk" of pendulum
-        this.length = 75;
+        this.length = 50;
         // Angle the "stalk" sticks up from
         // 0 = straight up
         this.angle = random() < 0.5 ? random(-20, -5) : random(5, 20);
 
         // Size of ball at end
-        this.size = 24;
+        this.size = 8;
 
         this.fallSpeed = 0;
     }
